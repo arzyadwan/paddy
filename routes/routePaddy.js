@@ -134,8 +134,8 @@ router.get("/paddyDetails", (req, res) => {
         });
         } else {
         res.status(200).json({
-            result : false,
-            keterangan : "berhasil input data",
+            result : true,
+            keterangan : "berhasil mengambil data",
             data : results
         });
         }

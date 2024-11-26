@@ -1,7 +1,7 @@
 const mysql = require("mysql2");
 //konfig koneksi ke db
 const dbConfig = {
-    host: "34.101.176.45",
+    host: "35.219.31.229",
     user: "andi",
     password: "Ari421@&!",
     database: "db_paddy",
